@@ -1,4 +1,4 @@
-Django==2.2.6
+Django==2.2.18
 pdfkit==0.6.1
 androguard==3.3.5
 lxml==4.4.1
@@ -22,3 +22,4 @@ distro==1.4.0
 pyparsing<2.3
 click<7
 http-tools==1.0.1
+mitmproxy>=5.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
